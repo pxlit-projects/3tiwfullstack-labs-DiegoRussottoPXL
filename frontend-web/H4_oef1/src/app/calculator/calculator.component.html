@@ -1,0 +1,14 @@
+<div>
+    <!-- Input fields with two-way data binding -->
+    <input type="number" [(ngModel)]="num1" placeholder="Enter first number" />
+    <input type="number" [(ngModel)]="num2" placeholder="Enter second number" />
+  
+    <!-- Button to perform the addition -->
+    <button (click)="addNumbers()">Add</button>
+  
+    <!-- Result div that is only shown after the button is clicked -->
+    <div *ngIf="resultVisible">
+      <p>The result is: {{ result }}</p>
+    </div>
+  </div>
+  

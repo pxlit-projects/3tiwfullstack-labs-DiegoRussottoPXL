@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * DepartmentService.
  *
  */
-@SpringBootApplication
+//@SpringBootApplication
 public class DepartmentServiceApplication
 {
     public static void main( String[] args )

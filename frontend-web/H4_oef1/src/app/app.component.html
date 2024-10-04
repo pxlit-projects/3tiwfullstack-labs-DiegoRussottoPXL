@@ -1,0 +1,12 @@
+<div>
+  <!-- Input field with two-way data binding -->
+  <input type="text" [(ngModel)]="username" placeholder="Enter your username" />
+
+  <!-- Display the username -->
+  <p>Your username is: {{ username }}</p>
+
+  <!-- Button that is disabled when the username is empty -->
+  <button (click)="clearUsername()" [disabled]="!username">Clear Username</button>
+</div>
+
+<app-calculator></app-calculator>
