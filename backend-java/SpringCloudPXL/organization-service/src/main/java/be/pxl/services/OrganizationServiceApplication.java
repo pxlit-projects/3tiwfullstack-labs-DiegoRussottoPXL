@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * OrganizationService.
  *
  */
-//@SpringBootApplication
+@SpringBootApplication
 public class OrganizationServiceApplication
 {
     public static void main( String[] args )
